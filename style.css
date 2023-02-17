@@ -1,0 +1,425 @@
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 700px;
+    padding-top: 20px;
+    float: left;
+    background-image: linear-gradient(to bottom, #0370f6, #1277f5, #207ff3, #2f85f1, #3c8cee);
+}
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: #0370f626;
+    float: left;
+}
+.text1{
+    font-size: 50px;
+    padding: 20px 200px;
+    color: white;
+    font-style: italic;
+    float:left ;
+}
+.text2{
+    font-size:  20px;
+    color:  white;
+    float: left;
+    padding: 50px 20px;
+    cursor: pointer;
+}
+.text2:hover{
+    color: #060607;
+}
+.text3{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    
+}
+.text4{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.box1{
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box1 :hover{
+    background-color: black;
+    border-radius: 10px;
+}
+.box1text{
+    font-size: 20px;
+    color: #84858a;
+    padding: 10px 220px;
+}
+.container{
+    background-color: #3c8cee24;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+.one,.two,.three,.four,.five,.six{
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 300px;
+    margin-left: 30px;
+    background-size: cover;
+
+}
+.one{
+    background-image: url(images/animation1.jpg);
+}
+.two{
+    background-image: url(images/animation3.jpg);
+}
+.three{
+    background-image: url(images/animation4.jpg);
+}
+.four{
+    background-image: url(images/animation5.jfif);
+}
+.five{
+    background-image: url(images/animation6.jfif);
+}
+.six{
+    background-image: url(images/animation2.jfif);
+}
+
+.banner{
+    width: 100%;
+    height: 100px;
+    background-color: #c7ebff;
+    float: left;
+}
+.banner-text{
+    font-size: 23px;
+    color: black;
+    margin-left: 430px;
+    margin-top: 40px;
+}
+.banner-box{
+    width: 180px;
+    height: 50px;
+    background-color:#4661e8;
+    float: left;
+    margin-left: 900px;
+    margin-top: -35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.banner-box:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.banner-box-text{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 15px 22px;
+}
+.banner-box-text:hover{
+color: #4661e8;
+}
+.scanner{
+    width: 100%;
+    height: 650px;
+    background-color: #ffffff;
+    float: left;
+    cursor: pointer;
+}
+.scanner-text{
+    font-size: 25px;
+    color: black;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.scanner-text1{
+    font-size: 20px;
+    color: rgb(66, 61, 61);
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+.p1,.p2,.p3,.p4{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid white;
+    margin-left: 20px;
+    background-size: cover;
+}
+.p1{
+    background-image: url(images/animation1.jpg);
+    background-size: cover;
+}
+.p1-text{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 320px;
+}
+.p2{
+    background-image: url(images/animation2.jfif);
+    background-size: cover;
+}
+.p3{
+    background-image: url(images/3color.jpg);
+    background-size: cover;
+}
+.p4{
+    background-image: url(images/animation3.jpg);
+    background-size: cover;
+}
+
+.looper{
+    width: 100%;
+    height: 800px;
+    float: left;
+    background-color: azure;
+}
+.looper-text{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+.looper-text1{
+    font-size: 25px;
+    color: rgb(71, 67, 67);
+    text-align: center;
+    margin-top: 20px;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.l1,.l2,.l3,.l4{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    /* border: 1px solid rgb(142, 46, 46); */
+    padding-top: 20px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.l-box1{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    background-image: url(images/star.png);
+    background-size: cover;
+}
+.l-box2{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    background-image: url(images/like.png);
+    background-size: cover;
+}
+.l-box3{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    background-image: url(images/search.png);
+    background-size: cover;
+}
+.l-box4{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    background-image: url(images/recycle.png);
+    background-size: cover;
+}
+.l-text{
+    font-size: 10px;
+    color: black;
+}
+.looper-box{
+    width: 400px;
+    height: 450px;
+    float: right;
+    background-image: url(images/glass.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: -480px;
+    margin-right: 300px;
+}
+.seener{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-image: linear-gradient(to bottom, #49404b, #49384c, #4a2f4d, #4a254d, #4b194c);
+}
+.seener-text{
+        font-size: 20px;
+        color: white;
+        padding: 120px 200px;
+}
+.seener-text1{
+    font-size: 30px;
+    color: white;
+    margin-top: -100px;
+    margin-left: 200px;   
+}
+.seener-box{
+    width: 100px;
+    height: 38px;
+    float: left;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seener-box:hover{
+    background-color: #f800d7;  
+}
+.seener-box-text{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    color: #f800d7;
+}
+.seener-box-text:hover{
+    color: white;
+}
+.seener-box1{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/asset\ 2.png);
+    background-size: cover;
+    margin-left: 900px;
+    margin-top: -140px;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: 550px;
+    float: left;
+    background-color: black;
+}
+.container-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.f1,.f2,.f3,.f4{
+    width: 330px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.f1 h1{
+    color: white;
+    font-size: 17px;
+}
+.f1 h4{
+    color: rgb(162, 173, 227);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.f2 h1{
+    color: white;
+    font-size: 15px;
+}
+.f2 h4{
+    color: rgb(162, 173, 227);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.f3 h1{
+    color: white;
+    font-size: 15px;
+}
+.f3 h4{
+    color:rgb(162, 173, 227);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.f4 h1{
+    color: white;
+    font-size: 15px;
+}
+.f4 img{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 17px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.f4 h4{
+    color:rgb(162, 173, 227);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.f4-box{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #1277f5;
+    cursor: pointer;
+}
+.f4-box:hover{
+  background-color:white;
+}
+.signup{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+.signup:hover{
+    color: #1277f5;
+}
